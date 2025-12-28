@@ -1,0 +1,2 @@
+# .zconfig
+zsh configuration
