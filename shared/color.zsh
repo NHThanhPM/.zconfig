@@ -1,7 +1,5 @@
 # enable color support of ls, less and man, and also add handy aliases
-if [ -x /usr/bin/dircolors ]; then
-    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    export LS_COLORS="$LS_COLORS:ow=30;44:" # fix ls color for folders with 777 permissions
+
 
     source $ZDIR/$(uname)/color.zsh
     #alias dir='dir --color=auto'
@@ -24,4 +22,3 @@ if [ -x /usr/bin/dircolors ]; then
     # Take advantage of $LS_COLORS for completion as well
     zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
     zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
-fi
