@@ -36,7 +36,7 @@ configure_prompt() {
 # The following block is surrounded by two delimiters.
 # These delimiters must not be modified. Thanks.
 # START KALI CONFIG VARIABLES
-if [ $XDG_SESSION_TYPE = "tty" ]; then
+if [ "$XDG_SESSION_TYPE" = "tty" ]; then
     PROMPT_ALTERNATIVE=oneline
 else
     PROMPT_ALTERNATIVE=twoline
