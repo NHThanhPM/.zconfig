@@ -8,6 +8,10 @@ source $ZDIR/shared/prompt.zsh
 source $ZDIR/shared/color.zsh
 source $ZDIR/shared/aliases.zsh
 
+if [ $(uname) = "Darwin" ];then
+    source $ZDIR/Darwin/aliases.zsh
+fi
+
 source $ZDIR/$(uname)/auto_suggest.zsh
 
 source $ZDIR/shared/auto_suggest.zsh
