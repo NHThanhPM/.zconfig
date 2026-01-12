@@ -14,4 +14,4 @@ if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
 
-SYN_HIGH_PATH="/usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+SYN_HIGH_PATH=/usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

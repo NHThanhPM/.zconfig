@@ -9,4 +9,4 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
-SYN_HIGH_PATH="/usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+SYN_HIGH_PATH=/usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

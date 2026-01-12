@@ -5,3 +5,10 @@ source $ZDIR/shared/style.zsh
 source $ZDIR/shared/history.zsh
 source $ZDIR/shared/time.zsh
 source $ZDIR/shared/prompt.zsh
+source $ZDIR/shared/color.zsh
+source $ZDIR/shared/alias.zsh
+
+source $ZDIR/$(uname)/auto_suggest.zsh
+
+source $ZDIR/shared/auto_suggest.zsh
+unset ZDIR
