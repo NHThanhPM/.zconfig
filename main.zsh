@@ -6,7 +6,7 @@ source $ZDIR/shared/history.zsh
 source $ZDIR/shared/time.zsh
 source $ZDIR/shared/prompt.zsh
 source $ZDIR/shared/color.zsh
-source $ZDIR/shared/alias.zsh
+source $ZDIR/shared/aliases.zsh
 
 source $ZDIR/$(uname)/auto_suggest.zsh
 
