@@ -43,7 +43,7 @@ else
 fi
 NEWLINE_BEFORE_PROMPT=yes
 # STOP KALI CONFIG VARIABLES
-
+color_prompt=yes
 if [ "$color_prompt" = yes ]; then
     # override default virtualenv indicator in prompt
     VIRTUAL_ENV_DISABLE_PROMPT=1
